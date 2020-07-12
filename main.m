@@ -1,7 +1,7 @@
 
 clc;
 clear all;
-Im = imread("png-vs-jpeg.jpg");
+Im = imread("image.jpg");
 [row coln]=size(Im);
 coln=coln/3;
 r=ceil(row/8);
